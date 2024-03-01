@@ -45,7 +45,7 @@ Before deploying the operator, ensure that the cluster is created via kind, and 
 4. Build and deploy the provider using the steps below:
 
    ```sh
-   img="example.com/int03012024:v0.0.1"
+   img="example.com/myappresource-operator:v0.0.1"
 
    # For Darwin/amd64 users, ensure you are using a darwin docker builder profile. 
    make docker-build "IMG=${img}"

@@ -27,7 +27,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	myapigroupv1alpha1 "github.com/aa-ang4335/int03012024/api/v1alpha1"
+	myapigroupv1alpha1 "github.com/aa-ang4335/myappresource-operator/api/v1alpha1"
 )
 
 var _ = Describe("MyAppResource Controller", func() {

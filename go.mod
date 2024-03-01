@@ -1,4 +1,4 @@
-module github.com/aa-ang4335/int03012024
+module github.com/aa-ang4335/myappresource-operator
 
 go 1.21
 

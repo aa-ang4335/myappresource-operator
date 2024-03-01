@@ -15,9 +15,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	myapigroupv1alpha1 "github.com/aa-ang4335/int03012024/api/v1alpha1"
-	"github.com/aa-ang4335/int03012024/internal/service/podinfo"
-	"github.com/aa-ang4335/int03012024/internal/service/redis"
+	myapigroupv1alpha1 "github.com/aa-ang4335/myappresource-operator/api/v1alpha1"
+	"github.com/aa-ang4335/myappresource-operator/internal/service/podinfo"
+	"github.com/aa-ang4335/myappresource-operator/internal/service/redis"
 )
 
 const controllerName = "controller.MyAppResource"
