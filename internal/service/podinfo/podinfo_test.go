@@ -3,8 +3,8 @@ package podinfo
 import (
 	"testing"
 
-	myapigroupv1alpha1 "github.com/aa-ang4335/int03012024/api/v1alpha1"
-	"github.com/aa-ang4335/int03012024/internal/utils"
+	myapigroupv1alpha1 "github.com/aa-ang4335/myappresource-operator/api/v1alpha1"
+	"github.com/aa-ang4335/myappresource-operator/internal/utils"
 	"github.com/google/go-cmp/cmp"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

@@ -3,8 +3,8 @@ package podinfo
 import (
 	"fmt"
 
-	myapigroupv1alpha1 "github.com/aa-ang4335/int03012024/api/v1alpha1"
-	"github.com/aa-ang4335/int03012024/internal/utils"
+	myapigroupv1alpha1 "github.com/aa-ang4335/myappresource-operator/api/v1alpha1"
+	"github.com/aa-ang4335/myappresource-operator/internal/utils"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"

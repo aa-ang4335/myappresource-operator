@@ -3,7 +3,7 @@ package redis
 import (
 	"fmt"
 
-	"github.com/aa-ang4335/int03012024/internal/utils"
+	"github.com/aa-ang4335/myappresource-operator/internal/utils"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"

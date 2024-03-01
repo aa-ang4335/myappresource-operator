@@ -5,8 +5,8 @@
 domain: aa-ang4335.site
 layout:
 - go.kubebuilder.io/v4
-projectName: int03012024
-repo: github.com/aa-ang4335/int03012024
+projectName: myappresource-operator
+repo: github.com/aa-ang4335/myappresource-operator
 resources:
 - api:
     crdVersion: v1
@@ -15,6 +15,6 @@ resources:
   domain: aa-ang4335.site
   group: my.api.group
   kind: MyAppResource
-  path: github.com/aa-ang4335/int03012024/api/v1alpha1
+  path: github.com/aa-ang4335/myappresource-operator/api/v1alpha1
   version: v1alpha1
 version: "3"

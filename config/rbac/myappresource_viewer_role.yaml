@@ -6,8 +6,8 @@ metadata:
     app.kubernetes.io/name: clusterrole
     app.kubernetes.io/instance: myappresource-viewer-role
     app.kubernetes.io/component: rbac
-    app.kubernetes.io/created-by: int03012024
-    app.kubernetes.io/part-of: int03012024
+    app.kubernetes.io/created-by: myappresource-operator
+    app.kubernetes.io/part-of: myappresource-operator
     app.kubernetes.io/managed-by: kustomize
   name: myappresource-viewer-role
 rules:
