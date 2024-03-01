@@ -1,0 +1,18 @@
+apiVersion: my.api.group/v1alpha1
+kind: MyAppResource
+metadata:
+  name: whatever
+spec:
+  replicaCount: 3
+  resources:
+    memoryLimit: 160Mi
+    cpuRequest: 200m
+  image:
+    repository: ghcr.io/stefanprodan/podinfo
+    tag: latest
+
+  ui:
+    color: "#34577c"
+    message: "some string"
+  redis:
+    enabled: true
